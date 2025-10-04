@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/purple_bloom.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0f18",
+        "foreground": "#e4e0e1",
+        "cursor": "#e4e0e1"
+    },
+    "colors": {
+        "color0": "#0e0f18",
+        "color1": "#6A3791",
+        "color2": "#6B6A8C",
+        "color3": "#7E7E9A",
+        "color4": "#9C5EB6",
+        "color5": "#9C98AB",
+        "color6": "#BEB1C9",
+        "color7": "#e4e0e1",
+        "color8": "#9f9c9d",
+        "color9": "#6A3791",
+        "color10": "#6B6A8C",
+        "color11": "#7E7E9A",
+        "color12": "#9C5EB6",
+        "color13": "#9C98AB",
+        "color14": "#BEB1C9",
+        "color15": "#e4e0e1"
+    }
+}

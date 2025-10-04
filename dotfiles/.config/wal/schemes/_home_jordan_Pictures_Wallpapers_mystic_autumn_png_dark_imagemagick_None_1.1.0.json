@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/mystic_autumn.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0F0F12",
+        "foreground": "#eceae5",
+        "cursor": "#eceae5"
+    },
+    "colors": {
+        "color0": "#0F0F12",
+        "color1": "#6B7A84",
+        "color2": "#788892",
+        "color3": "#8E9395",
+        "color4": "#A4ACAE",
+        "color5": "#C2C2BB",
+        "color6": "#D2D2CD",
+        "color7": "#eceae5",
+        "color8": "#a5a3a0",
+        "color9": "#6B7A84",
+        "color10": "#788892",
+        "color11": "#8E9395",
+        "color12": "#A4ACAE",
+        "color13": "#C2C2BB",
+        "color14": "#D2D2CD",
+        "color15": "#eceae5"
+    }
+}

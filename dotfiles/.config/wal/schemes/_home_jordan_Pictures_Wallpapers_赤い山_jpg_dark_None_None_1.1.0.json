@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/\u8d64\u3044\u5c71.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080809",
+        "foreground": "#cfcbc8",
+        "cursor": "#cfcbc8"
+    },
+    "colors": {
+        "color0": "#080809",
+        "color1": "#990F37",
+        "color2": "#CE2D53",
+        "color3": "#86817F",
+        "color4": "#88847E",
+        "color5": "#C3807D",
+        "color6": "#8B8782",
+        "color7": "#cfcbc8",
+        "color8": "#908e8c",
+        "color9": "#990F37",
+        "color10": "#CE2D53",
+        "color11": "#86817F",
+        "color12": "#88847E",
+        "color13": "#C3807D",
+        "color14": "#8B8782",
+        "color15": "#cfcbc8"
+    }
+}
