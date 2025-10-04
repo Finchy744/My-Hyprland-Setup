@@ -1,1 +1,1 @@
-# My-Hyprland-Setup
+# My Hyprland Setup
