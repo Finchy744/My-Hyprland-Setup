@@ -1,0 +1,184 @@
+// -*- mode: jsonc -*-
+{
+    "height": 30,
+    "spacing": 10,
+    "margin-top": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+    "modules-left": [
+        "hyprland/workspaces",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "custom/gpu_temp",
+        "custom/notifications",
+        "custom/updates",
+        "tray",
+        "power-profiles-daemon",
+        "custom/power"
+    ],
+
+  "hyprland/workspaces": {
+    "all-outputs": false,
+    "format": "{icon}",
+    "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "focused": "",
+        "default": ""
+    },
+
+    "persistent-workspaces": {
+        "DP-2": [1, 2, 3, 4, 5],
+        "HDMI-A-1": [6, 7, 8, 9, 10]
+    }
+},
+
+    "keyboard-state": {
+        "numlock": true,
+        "capslock": true,
+        "format": "{name} {icon}",
+        "format-icons": {
+            "locked": "",
+            "unlocked": ""
+        }
+    },
+
+    "sway/mode": {
+        "format": "<span style=\"italic\">{}</span>"
+    },
+
+    "sway/scratchpad": {
+        "format": "{icon} {count}",
+        "show-empty": false,
+        "format-icons": ["", ""],
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
+        "format-disconnected": "Disconnected ",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+        "unknown-tag": "N/A",
+        "interval": 5,
+        "consume-icons": {"on": " "},
+        "random-icons": {"off": "<span color=\"#f53c3c\"></span> ", "on": " "},
+        "repeat-icons": {"on": " "},
+        "single-icons": {"on": "1 "},
+        "state-icons": {"paused": "", "playing": ""},
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    },
+
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "",
+            "deactivated": ""
+        }
+    },
+
+    "tray": {
+        "spacing": 10
+    },
+
+    "clock": {
+        "format": "{:%I:%M}",
+        "tooltip-format": "<big>{:%I:%M}</big>\n<tt><big>{calendar}</big></tt>",
+        "format-alt": "{:%Y-%m-%d}"
+    },
+
+    "cpu": {"format": "{usage}% ", "tooltip": false},
+    "memory": {"format": "{}% "},
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+    "backlight": {"format": "{percent}% {icon}", "format-icons": ["","","","","","","","",""]},
+    "battery": {
+        "states": {"warning": 30, "critical": 15},
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["","","","",""]
+    },
+    "battery#bat2": {"bat": "BAT2"},
+    "power-profiles-daemon": {
+        "format": "{icon}",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+        "format-icons": {
+            "default": "",
+            "performance": "",
+            "balanced": "",
+            "power-saver": ""
+        }
+    },
+    "network": {
+        "format-wifi": "",
+        "format-ethernet": "",
+        "format-disconnected": "󰤭",
+        "format-alt": "{ipaddr}",
+        "tooltip-format": "",
+        "on-click": "toggle-alt"
+    },
+    "pulseaudio": {"format": "{volume}% ", "on-click": "pavucontrol", "scroll-step": 1},
+    "custom/media": {
+        "format": "{icon} {text}",
+        "return-type": "json",
+        "max-length": 40,
+        "format-icons": {"spotify": "", "default": "🎜"},
+        "escape": true,
+        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+    },
+    "custom/power": {
+        "format": "⏻",
+        "tooltip": "Logout",
+        "on-click": "/home/jordan/.config/scripts/launch.wlogout.sh"
+    },
+    "custom/gpu_temp": {
+        "exec": "~/.config/scripts/gpu_temp.sh",
+        "interval": 5,
+        "return-type": "text",
+        "tooltip": false,
+        "format": "{}"
+    },
+    "custom/notifications": {
+        "exec": "/home/jordan/.config/scripts/notifications.sh",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true,
+        "format": "{}",
+        "on-click": "/home/jordan/.config/scripts/notify_updates.sh",
+        "on-click-right": "gtk-launch cachyos-hello",
+        "class": "notifications",
+        "max-length": 20
+    },
+    "custom/updates": {
+        "exec": "~/.config/waybar/scripts/updates.sh",
+        "interval": 3600,
+        "return-type": "json",
+        "tooltip": true
+    }
+}
+
+
+
+
