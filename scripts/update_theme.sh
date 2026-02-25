@@ -1,4 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+# =====================================================================
+# =================== WALLPAPER + PYWAL + WAYBAR ======================
+# =====================================================================
 
 # --- CONFIGURATION ---
 WALLPAPER_DIR="${HOME}/Pictures/Wallpapers"
@@ -6,15 +10,18 @@ LAST_WALLPAPER_FILE="${HOME}/.cache/last_wallpaper"
 WAYBAR_CSS="${HOME}/.cache/wal/colors-waybar.css"
 WAL_COLORS="${HOME}/.cache/wal/colors.sh"
 
+WAYBAR_CONFIG_DIR="$HOME/.config/waybar"
+WAYBAR_JSON="$WAYBAR_CONFIG_DIR/alt.jsonc"
+WAYBAR_CSS_FILE="$WAYBAR_CONFIG_DIR/alt.css"
+
 # --- CHECK DEPENDENCIES ---
-command -v swww >/dev/null 2>&1 || { echo "❌ swww is not installed."; exit 1; }
-command -v wal >/dev/null 2>&1 || { echo "❌ pywal is not installed."; exit 1; }
-command -v hyprctl >/dev/null 2>&1 || { echo "❌ hyprctl is not installed."; exit 1; }
-command -v openrgb >/dev/null 2>&1 || { echo "❌ openrgb is not installed."; exit 1; }
+for cmd in swww wal hyprctl openrgb; do
+    command -v "$cmd" >/dev/null 2>&1 || { echo "❌ $cmd is not installed."; exit 1; }
+done
 
 # --- FIND WALLPAPERS ---
 mapfile -t WALLPAPERS < <(find "$WALLPAPER_DIR" -type f \( -iname '*.jpg' -o -iname '*.png' -o -iname '*.jpeg' -o -iname '*.webp' \))
-[[ ${#WALLPAPERS[@]} -eq 0 ]] && { echo "❌ No wallpapers found."; exit 1; }
+[[ ${#WALLPAPERS[@]} -eq 0 ]] && { echo "❌ No wallpapers found in $WALLPAPER_DIR"; exit 1; }
 
 # --- PICK RANDOM WALLPAPER ---
 LAST_WALLPAPER=""
@@ -48,18 +55,28 @@ for i in {1..10}; do
     sleep 0.5
 done
 
-if [[ ! -s "$WAYBAR_CSS" ]]; then
-    echo "❌ Error: $WAYBAR_CSS was not generated properly."
-    exit 1
-fi
+[[ ! -s "$WAYBAR_CSS" ]] && { echo "❌ Error: $WAYBAR_CSS was not generated properly."; exit 1; }
 
-# --- RESTART WAYBAR ---
-echo "🔁 Restarting Waybar..."
+# --- FUNCTION TO LAUNCH WAYBAR ALT CONFIG ---
+launch_waybar_alt() {
+    if [[ ! -f "$WAYBAR_JSON" || ! -f "$WAYBAR_CSS_FILE" ]]; then
+        echo "❌ Waybar alt config files not found."
+        return 1
+    fi
+
+    # Kill any existing Waybar
+    pkill -x waybar 2>/dev/null
+    sleep 0.3
+
+    # Launch alt config
+    waybar -c "$WAYBAR_JSON" -s "$WAYBAR_CSS_FILE" &
+    echo "✅ Waybar (alt) launched."
+}
+
+# --- RESTART WAYBAR (with 2s delay) ---
+echo "⏳ Waiting 2 seconds before launching Waybar..."
 sleep 2
-pkill waybar
-waybar &
-
-echo "✅ Wallpaper, Pywal, Waybar, and OpenRGB updated."
+launch_waybar_alt
 
 # --- RESTART NWG-DOCK ---
 echo "🔁 Restarting nwg-dock-hyprland..."
@@ -67,9 +84,7 @@ pkill -f nwg-dock-hyprland
 sleep 1
 nwg-dock-hyprland -lp start -l bottom -i 48 -w 5 -mb 10 -ml 10 -mr 10 -c "rofi -show drun" &
 
-# =====================================================================
 # --- OPENRGB INTEGRATION (RAM ONLY) ---
-# =====================================================================
 MAIN_COLOR="${color1#\#}"   # remove '#' for OpenRGB
 
 # Start OpenRGB server
@@ -86,3 +101,4 @@ for ID in $DRAM_IDS; do
 done
 
 echo "🌈 OpenRGB updated successfully (RAM only)."
+echo "✅ Wallpaper, Pywal, Waybar (alt), and NWG-Dock updated."
