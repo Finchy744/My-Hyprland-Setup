@@ -1,0 +1,294 @@
+/* -----------------------------------------------------
+ * Glass Rofi Theme
+ * ----------------------------------------------------- */
+
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    display-drun: "󰀻";
+    display-run: "";
+    display-window: "";
+    drun-display-format: "{name}";
+    font: "Fira Sans 11";
+    click-to-exit: true;
+    hover-select: true;
+}
+
+@import "~/.config/rofi/colors.rasi"
+@import "~/.config/rofi/image.rasi"
+
+* {
+    background-color: transparent;
+    text-color: @foreground;
+    font: "Fira Sans 11";
+}
+
+/* -----------------------------------------------------
+ * Window
+ * ----------------------------------------------------- */
+
+window {
+    transparency: "real";
+
+    location: center;
+    anchor: center;
+
+    width: 1050px;
+    height: 700px;
+
+    border: 2px;
+    border-color: #ffffff30;
+    border-radius: 32px;
+
+    background-color: #10131ab5;
+
+    padding: 24px;
+}
+
+/* -----------------------------------------------------
+ * Main Layout
+ * ----------------------------------------------------- */
+
+mainbox {
+    orientation: horizontal;
+    spacing: 24px;
+
+    children: [
+        "imagebox",
+        "rightbox"
+    ];
+}
+
+/* -----------------------------------------------------
+ * Wallpaper
+ * ----------------------------------------------------- */
+
+imagebox {
+
+    width: 310px;
+
+    background-image: @current-image;
+    background-color: #00000050;
+
+    border-radius: 28px;
+
+    children: [
+        "leftbox"
+    ];
+}
+
+/* -----------------------------------------------------
+ * Left Panel
+ * ----------------------------------------------------- */
+
+leftbox {
+
+    orientation: vertical;
+
+    spacing: 24px;
+
+    padding: 24px;
+
+    children: [
+        "inputbar",
+        "dummy",
+        "mode-switcher"
+    ];
+}
+
+dummy {
+    expand: true;
+}
+
+/* -----------------------------------------------------
+ * Search
+ * ----------------------------------------------------- */
+
+inputbar {
+
+    children: [
+        "textbox-prompt-colon",
+        "entry"
+    ];
+
+    background-color: #ffffff14;
+
+    border: 1px;
+    border-color: @foreground;
+
+    border-radius: 999px;
+
+    padding: 14px 18px;
+}
+
+textbox-prompt-colon {
+
+    expand: false;
+
+    str: "";
+
+    text-color: @accent;
+
+    background-color: transparent;
+
+    padding: 12px;
+
+    font: "Fira Sans Bold 14";
+}
+
+entry {
+
+    placeholder: "Search applications...";
+
+    placeholder-color: #ffffff66;
+
+    text-color: @foreground;
+
+    background-color: transparent;
+
+    padding: 10px;
+}
+
+/* -----------------------------------------------------
+ * Mode Buttons
+ * ----------------------------------------------------- */
+
+mode-switcher {
+
+    orientation: horizontal;
+
+    spacing: 12px;
+}
+
+button {
+
+    background-color: #ffffff10;
+
+    text-color: @foreground;
+
+    border-radius: 999px;
+
+    padding: 12px;
+}
+
+button selected {
+
+    background-color: #ffffff22;
+
+    text-color: @foreground;
+}
+
+/* -----------------------------------------------------
+ * Right Panel
+ * ----------------------------------------------------- */
+
+rightbox {
+
+    expand: true;
+
+    background-color: #ffffff08;
+
+    border-radius: 28px;
+
+    padding: 20px;
+
+    children: [
+        "listview"
+    ];
+}
+
+/* -----------------------------------------------------
+ * Applications
+ * ----------------------------------------------------- */
+
+listview {
+
+    columns: 1;
+
+    lines: 10;
+
+    spacing: 16px;
+
+    cycle: true;
+
+    dynamic: true;
+
+    scrollbar: false;
+
+    layout: vertical;
+
+    fixed-height: true;
+
+    background-color: transparent;
+}
+
+scrollbar {
+    enabled: false;
+}
+
+/* -----------------------------------------------------
+ * Entries
+ * ----------------------------------------------------- */
+
+element {
+
+    orientation: horizontal;
+
+    spacing: 18px;
+
+    padding: 16px;
+
+    border-radius: 22px;
+
+    background-color: transparent;
+
+    text-color: @foreground;
+}
+
+element selected.normal {
+
+    background-color: #1b1d26;
+
+    border: 1px;
+    border-color: @foreground;
+
+    text-color: @foreground;
+}
+
+element-icon {
+
+    size: 58px;
+
+    background-color: transparent;
+}
+
+element-text {
+
+    vertical-align: 0.5;
+
+    horizontal-align: 0;
+
+    background-color: transparent;
+
+    text-color: inherit;
+}
+
+/* -----------------------------------------------------
+ * Message
+ * ----------------------------------------------------- */
+
+message {
+    background-color: transparent;
+}
+
+textbox {
+    background-color: transparent;
+    text-color: @foreground;
+}
+
+error-message {
+
+    background-color: #10131a;
+
+    text-color: @foreground;
+}
