@@ -1,0 +1,21 @@
+window {
+    background-color: transparent;
+}
+
+.wallpaper-card {
+    border-radius: 12px;
+    padding: 6px;
+    opacity: 0.6;
+    transition: opacity 220ms ease-in-out, transform 220ms ease-in-out;
+}
+
+.wallpaper-card.selected {
+    opacity: 1.0;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.wallpaper-card.skewed {
+    transform: skewX(-10deg);
+    transform-origin: center;
+}
+

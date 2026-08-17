@@ -1,0 +1,5 @@
+#!/bin/bash
+export WAYLAND_DISPLAY=$WAYLAND_DISPLAY
+export XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR
+
+wlogout

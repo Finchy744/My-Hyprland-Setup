@@ -1,0 +1,242 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin-top": 5,
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["clock"],
+  "modules-right": [
+  "custom/media",
+  "custom/weather",
+  "pulseaudio",
+  "network",
+  "tray",
+  "custom/notifications",
+  "power-profiles-daemon",
+  "custom/power"
+],
+
+  "group/volight":{
+      "orientation": "inherit",
+      "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": true,
+        "click-to-reveal": false
+      },
+      "modules": [
+        "custom/volight",
+        "pulseaudio",
+        "backlight"
+      ]
+    }, 
+
+  "group/wifibt":{
+      "orientation": "inherit",
+      "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false,
+        "click-to-reveal": true
+      },
+      "modules": [
+        "custom/wifibt",
+        "bluetooth",
+        "network"
+      ]
+    }, 
+
+  "height": 20,
+
+  "custom/wifibt":{
+    "format" : " 󰤨"
+  },
+
+  "custom/volight":{
+    "format" : "󰕾 󰃠"
+  },
+
+  "custom/notifications": {
+        "exec": "/home/jordan/.config/scripts/notifications.sh",
+        "interval": 5,
+        "return-type": "json",
+        "tooltip": true,
+        "format": "{}",
+        "on-click": "/home/jordan/.config/scripts/notify_updates.sh",
+        "on-click-right": "gtk-launch cachyos-hello",
+        "class": "notifications",
+        "max-length": 20
+    },
+
+  "custom/launcher": {
+    "format": "",
+    "on-click": "bash /home/$USER/.config/waybar/scripts/app_launcher.sh",
+    "tooltip-format": "Launch your favorite apps"
+  },
+
+  "custom/pacman": {
+    "format": "  {}",
+    "interval": "once",
+    "exec": "checkupdates | wc -l",
+    "on-click": "update-system",
+    "signal": 8,
+    "tooltip-format": "{} updates available"
+  },
+  
+  "custom/power": {
+        "format": "⏻",
+        "tooltip": "Logout",
+        "on-click": "/home/jordan/.config/scripts/launch.wlogout.sh"
+  },
+
+  "custom/media": {
+    "format": "{}",
+    "escape": true,
+    "return-type": "json",
+    "max-length": 40,
+    "on-click": "pkill -SIGUSR1 -f media-popup.py",
+    "on-click-right": "playerctl -p spotify stop",
+    "smooth-scrolling-threshold": 1,
+    "on-scroll-up": "playerctl -p spotify next",
+    "on-scroll-down": "playerctl -p spotify previous",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null"
+},
+
+  "clock": {
+    "format": "󰥔  {:%I:%M %p}",
+    "tooltip-format": "{:%A | %d-%m-%Y}",
+    "on-click": "gnome-calendar"
+  },
+
+  "pulseaudio": {
+    "format": "{icon}  {volume}%",
+    "format-bluetooth": "󰂱 {volume}%",
+    "format-muted": "󰖁",
+    "scroll-step": 1,
+    "on-click": "pavucontrol",
+    "ignored-sinks": ["Easy Effects Sink"],
+    "states": {
+      "low": 25,
+      "medium": 50
+    },
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "󰋎",
+      "phone": "",
+      "portable": "",
+      "car": "",
+      "default": ["󰖀", "󰕾"]
+    },
+    "tooltip-format": "Volume: {volume}%"
+  },
+
+ "network": {
+    "format-wifi": "",
+    "format-ethernet": "",
+    "format-disconnected": "󰤭",
+    "format-alt": "{ipaddr}",
+    "tooltip-format": "",
+    "on-click": "toggle-alt"
+    },
+
+  "custom/weather": {
+    "exec": "bash /home/jordan/.config/scripts/weather.sh",
+    "interval": 600,
+    "format": "{}",
+    "tooltip": true,
+    "return-type": "json",
+    "max-length": 50
+},
+
+  "bluetooth": {
+    "format": "",
+    "format-on": "󰂲  Disconnected",
+    "format-disabled": "Disabled",
+	  "format-connected": " {device_alias}",
+	  "format-connected-battery": "󰂱 {device_alias}",
+    "on-click": "blueberry"
+  },
+
+ "hyprland/workspaces": {
+    "all-outputs": false,
+    "on-click": "~/.config/scripts/workspace-switch.sh {name}",
+    "disable-scroll": true,
+    "format": "{icon}",
+
+    "format-icons": {
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8",
+        "9": "9",
+        "10": "10",
+        "focused": "",
+        "default": ""
+    },
+
+    "persistent-workspaces": {
+        "DP-2": [1, 2, 3, 4, 5],
+        "HDMI-A-1": [6, 7, 8, 9, 10]
+    }
+},
+
+"backlight": {
+    "device": "intel_backlight",
+    "format": "{icon}   {percent}%",
+    "format-icons": ["󰃞", "󰃟", "󰃠"]
+},
+
+  "hyprland/window": {
+    "format": "{class}",
+    "separate-outputs": true,
+    "icon": true,
+    "icon-size": 18
+},
+
+"group/media": {
+    "orientation": "inherit",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-media",
+        "transition-left-to-right": false,
+        "click-to-reveal": true
+    },
+    "modules": [
+        "custom/media-icon",
+        "custom/media-prev",
+        "custom/media",
+        "custom/media-next"
+    ]
+},
+
+"custom/media-icon": {
+    "format": "󰝚",
+    "tooltip": false
+},
+
+"custom/media-prev": {
+    "format": "󰒮",
+    "on-click": "playerctl -p spotify previous",
+    "tooltip": false
+},
+
+"custom/media-next": {
+    "format": "󰒭",
+    "on-click": "playerctl -p spotify next",
+    "tooltip": false
+},
+
+"power-profiles-daemon": {
+  "format": "{icon}",
+  "tooltip-format": "Profile: {profile}",
+  "format-icons": {
+    "performance": "",
+    "balanced": "",
+    "power-saver": ""
+  }
+}
+}

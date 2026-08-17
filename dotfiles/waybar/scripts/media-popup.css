@@ -1,0 +1,32 @@
+@import "/home/jordan/.cache/wal/colors-waybar.css";
+
+window.media-popup {
+  background-color: @background;
+  border-radius: 8px;
+  border: 1px solid @color1;
+}
+
+.media-title {
+  color: @foreground;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.media-art {
+  border-radius: 6px;
+}
+
+.media-btn {
+  background-color: @background;
+  color: @foreground;
+  border-radius: 8px;
+  font-size: 30px;
+  padding: 10px 18px;
+  border: none;
+}
+
+.media-btn:hover {
+  background-color: @color1;
+  color: @background;
+}
