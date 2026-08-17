@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/samurai3.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0C0C0E",
+        "foreground": "#d59086",
+        "cursor": "#d59086"
+    },
+    "colors": {
+        "color0": "#0C0C0E",
+        "color1": "#2B3E41",
+        "color2": "#364848",
+        "color3": "#285557",
+        "color4": "#485755",
+        "color5": "#586765",
+        "color6": "#606C68",
+        "color7": "#d59086",
+        "color8": "#95645d",
+        "color9": "#2B3E41",
+        "color10": "#364848",
+        "color11": "#285557",
+        "color12": "#485755",
+        "color13": "#586765",
+        "color14": "#606C68",
+        "color15": "#d59086"
+    }
+}

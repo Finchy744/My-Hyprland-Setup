@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Train.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000607",
+        "foreground": "#9ba5a8",
+        "cursor": "#9ba5a8"
+    },
+    "colors": {
+        "color0": "#000607",
+        "color1": "#083048",
+        "color2": "#0e4753",
+        "color3": "#277592",
+        "color4": "#65a4bd",
+        "color5": "#6bb0cd",
+        "color6": "#96b1c4",
+        "color7": "#9ba5a8",
+        "color8": "#374c52",
+        "color9": "#083048",
+        "color10": "#0e4753",
+        "color11": "#277592",
+        "color12": "#65a4bd",
+        "color13": "#6bb0cd",
+        "color14": "#96b1c4",
+        "color15": "#9ba5a8"
+    }
+}

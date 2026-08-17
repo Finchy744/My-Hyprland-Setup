@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/purple-girl-face-anime-dark.png",
+    "alpha": "100",
+    "special": {
+        "background": "#000001",
+        "foreground": "#9b9a9c",
+        "cursor": "#9b9a9c"
+    },
+    "colors": {
+        "color0": "#000001",
+        "color1": "#2f2064",
+        "color2": "#4a3873",
+        "color3": "#3c447c",
+        "color4": "#5941a0",
+        "color5": "#9b5bdd",
+        "color6": "#6b91df",
+        "color7": "#9b9a9c",
+        "color8": "#373639",
+        "color9": "#2f2064",
+        "color10": "#4a3873",
+        "color11": "#3c447c",
+        "color12": "#5941a0",
+        "color13": "#9b5bdd",
+        "color14": "#6b91df",
+        "color15": "#9b9a9c"
+    }
+}

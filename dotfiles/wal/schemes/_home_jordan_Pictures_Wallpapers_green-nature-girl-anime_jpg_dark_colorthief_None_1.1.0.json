@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/green-nature-girl-anime.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040605",
+        "foreground": "#a2a5a3",
+        "cursor": "#a2a5a3"
+    },
+    "colors": {
+        "color0": "#040605",
+        "color1": "#515354",
+        "color2": "#4e6143",
+        "color3": "#6f7558",
+        "color4": "#ba563b",
+        "color5": "#8c8c94",
+        "color6": "#8b9770",
+        "color7": "#a2a5a3",
+        "color8": "#464b48",
+        "color9": "#515354",
+        "color10": "#4e6143",
+        "color11": "#6f7558",
+        "color12": "#ba563b",
+        "color13": "#8c8c94",
+        "color14": "#8b9770",
+        "color15": "#a2a5a3"
+    }
+}

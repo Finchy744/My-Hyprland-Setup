@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Nier.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#030303",
+        "foreground": "#bfb9b0",
+        "cursor": "#bfb9b0"
+    },
+    "colors": {
+        "color0": "#030303",
+        "color1": "#655B4F",
+        "color2": "#706758",
+        "color3": "#787165",
+        "color4": "#86725B",
+        "color5": "#867A6A",
+        "color6": "#7B837B",
+        "color7": "#bfb9b0",
+        "color8": "#85817b",
+        "color9": "#655B4F",
+        "color10": "#706758",
+        "color11": "#787165",
+        "color12": "#86725B",
+        "color13": "#867A6A",
+        "color14": "#7B837B",
+        "color15": "#bfb9b0"
+    }
+}

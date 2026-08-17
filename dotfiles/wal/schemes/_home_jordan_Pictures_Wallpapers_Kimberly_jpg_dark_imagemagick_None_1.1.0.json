@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Kimberly.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0604",
+        "foreground": "#7eded2",
+        "cursor": "#7eded2"
+    },
+    "colors": {
+        "color0": "#0d0604",
+        "color1": "#D25663",
+        "color2": "#EA5A6A",
+        "color3": "#E96372",
+        "color4": "#E1BE49",
+        "color5": "#E573A6",
+        "color6": "#32B1B6",
+        "color7": "#7eded2",
+        "color8": "#589b93",
+        "color9": "#D25663",
+        "color10": "#EA5A6A",
+        "color11": "#E96372",
+        "color12": "#E1BE49",
+        "color13": "#E573A6",
+        "color14": "#32B1B6",
+        "color15": "#7eded2"
+    }
+}

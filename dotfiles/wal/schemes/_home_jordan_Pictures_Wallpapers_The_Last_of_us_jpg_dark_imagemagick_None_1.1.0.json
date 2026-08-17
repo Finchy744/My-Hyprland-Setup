@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/The_Last_of_us.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090907",
+        "foreground": "#c4c6c5",
+        "cursor": "#c4c6c5"
+    },
+    "colors": {
+        "color0": "#090907",
+        "color1": "#394951",
+        "color2": "#49504E",
+        "color3": "#5E6868",
+        "color4": "#847F75",
+        "color5": "#597789",
+        "color6": "#6D8F9E",
+        "color7": "#c4c6c5",
+        "color8": "#898a89",
+        "color9": "#394951",
+        "color10": "#49504E",
+        "color11": "#5E6868",
+        "color12": "#847F75",
+        "color13": "#597789",
+        "color14": "#6D8F9E",
+        "color15": "#c4c6c5"
+    }
+}

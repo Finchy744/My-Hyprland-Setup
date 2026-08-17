@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/red_samurai.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#040509",
+        "foreground": "#d97f91",
+        "cursor": "#d97f91"
+    },
+    "colors": {
+        "color0": "#040509",
+        "color1": "#354B51",
+        "color2": "#3E5B61",
+        "color3": "#43515A",
+        "color4": "#59615D",
+        "color5": "#435C62",
+        "color6": "#4B6A6F",
+        "color7": "#d97f91",
+        "color8": "#975865",
+        "color9": "#354B51",
+        "color10": "#3E5B61",
+        "color11": "#43515A",
+        "color12": "#59615D",
+        "color13": "#435C62",
+        "color14": "#4B6A6F",
+        "color15": "#d97f91"
+    }
+}

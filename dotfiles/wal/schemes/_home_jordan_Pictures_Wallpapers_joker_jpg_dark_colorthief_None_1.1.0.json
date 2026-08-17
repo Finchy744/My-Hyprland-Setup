@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/joker.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000000",
+        "foreground": "#9a9a9a",
+        "cursor": "#9a9a9a"
+    },
+    "colors": {
+        "color0": "#000000",
+        "color1": "#4a0404",
+        "color2": "#6c0404",
+        "color3": "#c40404",
+        "color4": "#d80404",
+        "color5": "#e40404",
+        "color6": "#f30404",
+        "color7": "#9a9a9a",
+        "color8": "#363636",
+        "color9": "#4a0404",
+        "color10": "#6c0404",
+        "color11": "#c40404",
+        "color12": "#d80404",
+        "color13": "#e40404",
+        "color14": "#f30404",
+        "color15": "#9a9a9a"
+    }
+}

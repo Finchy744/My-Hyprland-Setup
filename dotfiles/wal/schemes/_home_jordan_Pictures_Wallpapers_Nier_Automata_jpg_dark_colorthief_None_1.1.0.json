@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Nier_Automata.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0909",
+        "foreground": "#b1adad",
+        "cursor": "#b1adad"
+    },
+    "colors": {
+        "color0": "#0c0909",
+        "color1": "#656a6d",
+        "color2": "#d24a32",
+        "color3": "#777e7d",
+        "color4": "#9e8579",
+        "color5": "#a2a3a4",
+        "color6": "#aeb4ad",
+        "color7": "#b1adad",
+        "color8": "#645b5b",
+        "color9": "#656a6d",
+        "color10": "#d24a32",
+        "color11": "#777e7d",
+        "color12": "#9e8579",
+        "color13": "#a2a3a4",
+        "color14": "#aeb4ad",
+        "color15": "#b1adad"
+    }
+}

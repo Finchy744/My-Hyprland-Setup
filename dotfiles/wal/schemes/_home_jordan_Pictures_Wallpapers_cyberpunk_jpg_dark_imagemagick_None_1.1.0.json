@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/cyberpunk.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#010109",
+        "foreground": "#79c4e0",
+        "cursor": "#79c4e0"
+    },
+    "colors": {
+        "color0": "#010109",
+        "color1": "#234570",
+        "color2": "#940E76",
+        "color3": "#353994",
+        "color4": "#0553A3",
+        "color5": "#AC269A",
+        "color6": "#E60D9C",
+        "color7": "#79c4e0",
+        "color8": "#54899c",
+        "color9": "#234570",
+        "color10": "#940E76",
+        "color11": "#353994",
+        "color12": "#0553A3",
+        "color13": "#AC269A",
+        "color14": "#E60D9C",
+        "color15": "#79c4e0"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Hollow_Knight.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0c0e",
+        "foreground": "#a9bbcd",
+        "cursor": "#a9bbcd"
+    },
+    "colors": {
+        "color0": "#0a0c0e",
+        "color1": "#324C6B",
+        "color2": "#3C607C",
+        "color3": "#425F7B",
+        "color4": "#3C6083",
+        "color5": "#486E8D",
+        "color6": "#55729C",
+        "color7": "#a9bbcd",
+        "color8": "#76828f",
+        "color9": "#324C6B",
+        "color10": "#3C607C",
+        "color11": "#425F7B",
+        "color12": "#3C6083",
+        "color13": "#486E8D",
+        "color14": "#55729C",
+        "color15": "#a9bbcd"
+    }
+}

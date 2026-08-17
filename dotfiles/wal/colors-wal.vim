@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/jordan/Pictures/Wallpapers/hornet_groddo.png"
+let background = "#010402"
+let foreground = "#9ca19e"
+let cursor     = "#9ca19e"
+
+" Colors
+let color0  = "#010402"
+let color1  = "#214944"
+let color2  = "#593c35"
+let color3  = "#366d42"
+let color4  = "#7f8c7c"
+let color5  = "#67a35c"
+let color6  = "#84a484"
+let color7  = "#9ca19e"
+let color8  = "#3a443e"
+let color9  = "#214944"
+let color10 = "#593c35"
+let color11 = "#366d42"
+let color12 = "#7f8c7c"
+let color13 = "#67a35c"
+let color14 = "#84a484"
+let color15 = "#9ca19e"

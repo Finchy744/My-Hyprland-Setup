@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Anime-Room.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010206",
+        "foreground": "#9c9ea5",
+        "cursor": "#9c9ea5"
+    },
+    "colors": {
+        "color0": "#010206",
+        "color1": "#51104c",
+        "color2": "#1e3e6d",
+        "color3": "#284d4f",
+        "color4": "#15709f",
+        "color5": "#d55bb0",
+        "color6": "#28b1d1",
+        "color7": "#9c9ea5",
+        "color8": "#393e4c",
+        "color9": "#51104c",
+        "color10": "#1e3e6d",
+        "color11": "#284d4f",
+        "color12": "#15709f",
+        "color13": "#d55bb0",
+        "color14": "#28b1d1",
+        "color15": "#9c9ea5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/quiet_Horizon.jpeg",
+    "alpha": "100",
+    "special": {
+        "background": "#07070B",
+        "foreground": "#eda589",
+        "cursor": "#eda589"
+    },
+    "colors": {
+        "color0": "#07070B",
+        "color1": "#26615A",
+        "color2": "#055963",
+        "color3": "#056367",
+        "color4": "#56624D",
+        "color5": "#A6422B",
+        "color6": "#A85130",
+        "color7": "#eda589",
+        "color8": "#a5735f",
+        "color9": "#26615A",
+        "color10": "#055963",
+        "color11": "#056367",
+        "color12": "#56624D",
+        "color13": "#A6422B",
+        "color14": "#A85130",
+        "color15": "#eda589"
+    }
+}

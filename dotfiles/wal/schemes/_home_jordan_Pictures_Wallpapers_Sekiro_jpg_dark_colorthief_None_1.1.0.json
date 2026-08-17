@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Sekiro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090404",
+        "foreground": "#aca2a2",
+        "cursor": "#aca2a2"
+    },
+    "colors": {
+        "color0": "#090404",
+        "color1": "#5e302c",
+        "color2": "#7e4433",
+        "color3": "#714e4b",
+        "color4": "#935248",
+        "color5": "#c58f7c",
+        "color6": "#f1d1b0",
+        "color7": "#aca2a2",
+        "color8": "#594545",
+        "color9": "#5e302c",
+        "color10": "#7e4433",
+        "color11": "#714e4b",
+        "color12": "#935248",
+        "color13": "#c58f7c",
+        "color14": "#f1d1b0",
+        "color15": "#aca2a2"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/nature.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060805",
+        "foreground": "#a6a9a3",
+        "cursor": "#a6a9a3"
+    },
+    "colors": {
+        "color0": "#060805",
+        "color1": "#425d39",
+        "color2": "#785e42",
+        "color3": "#688145",
+        "color4": "#907b50",
+        "color5": "#829a6c",
+        "color6": "#7ca46d",
+        "color7": "#a6a9a3",
+        "color8": "#4e5448",
+        "color9": "#425d39",
+        "color10": "#785e42",
+        "color11": "#688145",
+        "color12": "#907b50",
+        "color13": "#829a6c",
+        "color14": "#7ca46d",
+        "color15": "#a6a9a3"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Ryu.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#000104",
+        "foreground": "#e0d8ce",
+        "cursor": "#e0d8ce"
+    },
+    "colors": {
+        "color0": "#000104",
+        "color1": "#D0985D",
+        "color2": "#013989",
+        "color3": "#034DA8",
+        "color4": "#5C729F",
+        "color5": "#0162CD",
+        "color6": "#6C95C9",
+        "color7": "#e0d8ce",
+        "color8": "#9c9790",
+        "color9": "#D0985D",
+        "color10": "#013989",
+        "color11": "#034DA8",
+        "color12": "#5C729F",
+        "color13": "#0162CD",
+        "color14": "#6C95C9",
+        "color15": "#e0d8ce"
+    }
+}

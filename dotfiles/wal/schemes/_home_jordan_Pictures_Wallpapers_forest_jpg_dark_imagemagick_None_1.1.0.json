@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/forest.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0F1E25",
+        "foreground": "#dceabf",
+        "cursor": "#dceabf"
+    },
+    "colors": {
+        "color0": "#0F1E25",
+        "color1": "#617F5A",
+        "color2": "#3F8E62",
+        "color3": "#54986D",
+        "color4": "#5CA174",
+        "color5": "#7AB286",
+        "color6": "#A7CD88",
+        "color7": "#dceabf",
+        "color8": "#9aa385",
+        "color9": "#617F5A",
+        "color10": "#3F8E62",
+        "color11": "#54986D",
+        "color12": "#5CA174",
+        "color13": "#7AB286",
+        "color14": "#A7CD88",
+        "color15": "#dceabf"
+    }
+}

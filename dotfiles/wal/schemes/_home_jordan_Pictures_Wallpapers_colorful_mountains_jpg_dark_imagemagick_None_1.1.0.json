@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/colorful_mountains.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0a1e",
+        "foreground": "#e599ce",
+        "cursor": "#e599ce"
+    },
+    "colors": {
+        "color0": "#0c0a1e",
+        "color1": "#E62F72",
+        "color2": "#542290",
+        "color3": "#5B2391",
+        "color4": "#2655B1",
+        "color5": "#A02EA7",
+        "color6": "#D42A97",
+        "color7": "#e599ce",
+        "color8": "#a06b90",
+        "color9": "#E62F72",
+        "color10": "#542290",
+        "color11": "#5B2391",
+        "color12": "#2655B1",
+        "color13": "#A02EA7",
+        "color14": "#D42A97",
+        "color15": "#e599ce"
+    }
+}

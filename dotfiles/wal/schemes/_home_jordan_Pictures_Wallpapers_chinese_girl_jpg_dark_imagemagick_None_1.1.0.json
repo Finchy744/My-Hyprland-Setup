@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/chinese_girl.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b1919",
+        "foreground": "#eeece5",
+        "cursor": "#eeece5"
+    },
+    "colors": {
+        "color0": "#1b1919",
+        "color1": "#B7B1AA",
+        "color2": "#C4BCB3",
+        "color3": "#CCC5BB",
+        "color4": "#C6BDC2",
+        "color5": "#D8D3C9",
+        "color6": "#E2DDD2",
+        "color7": "#eeece5",
+        "color8": "#a6a5a0",
+        "color9": "#B7B1AA",
+        "color10": "#C4BCB3",
+        "color11": "#CCC5BB",
+        "color12": "#C6BDC2",
+        "color13": "#D8D3C9",
+        "color14": "#E2DDD2",
+        "color15": "#eeece5"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/my-neighbor-totoro-sunflowers.png",
+    "alpha": "100",
+    "special": {
+        "background": "#171821",
+        "foreground": "#e9e3db",
+        "cursor": "#e9e3db"
+    },
+    "colors": {
+        "color0": "#171821",
+        "color1": "#7D839A",
+        "color2": "#9297AA",
+        "color3": "#97A2BC",
+        "color4": "#C7BCB2",
+        "color5": "#ECC8A3",
+        "color6": "#D7CBC4",
+        "color7": "#e9e3db",
+        "color8": "#a39e99",
+        "color9": "#7D839A",
+        "color10": "#9297AA",
+        "color11": "#97A2BC",
+        "color12": "#C7BCB2",
+        "color13": "#ECC8A3",
+        "color14": "#D7CBC4",
+        "color15": "#e9e3db"
+    }
+}

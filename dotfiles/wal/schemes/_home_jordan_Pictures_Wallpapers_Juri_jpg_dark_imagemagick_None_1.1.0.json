@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Juri.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#090507",
+        "foreground": "#d792ca",
+        "cursor": "#d792ca"
+    },
+    "colors": {
+        "color0": "#090507",
+        "color1": "#324F5F",
+        "color2": "#860338",
+        "color3": "#8D1659",
+        "color4": "#BE1E79",
+        "color5": "#6C378F",
+        "color6": "#6B5499",
+        "color7": "#d792ca",
+        "color8": "#96668d",
+        "color9": "#324F5F",
+        "color10": "#860338",
+        "color11": "#8D1659",
+        "color12": "#BE1E79",
+        "color13": "#6C378F",
+        "color14": "#6B5499",
+        "color15": "#d792ca"
+    }
+}

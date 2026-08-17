@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/orange-brown-fantasy-landscape.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#190f0d",
+        "foreground": "#d3dcde",
+        "cursor": "#d3dcde"
+    },
+    "colors": {
+        "color0": "#190f0d",
+        "color1": "#9D5D21",
+        "color2": "#8F7359",
+        "color3": "#A68F69",
+        "color4": "#CA9F4E",
+        "color5": "#778189",
+        "color6": "#A09A96",
+        "color7": "#d3dcde",
+        "color8": "#939a9b",
+        "color9": "#9D5D21",
+        "color10": "#8F7359",
+        "color11": "#A68F69",
+        "color12": "#CA9F4E",
+        "color13": "#778189",
+        "color14": "#A09A96",
+        "color15": "#d3dcde"
+    }
+}

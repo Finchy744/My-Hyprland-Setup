@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/jinx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e0510",
+        "foreground": "#7acae3",
+        "cursor": "#7acae3"
+    },
+    "colors": {
+        "color0": "#0e0510",
+        "color1": "#FAA054",
+        "color2": "#5658AF",
+        "color3": "#BE3DB8",
+        "color4": "#DF1FC5",
+        "color5": "#328ABE",
+        "color6": "#1496CC",
+        "color7": "#7acae3",
+        "color8": "#558d9e",
+        "color9": "#FAA054",
+        "color10": "#5658AF",
+        "color11": "#BE3DB8",
+        "color12": "#DF1FC5",
+        "color13": "#328ABE",
+        "color14": "#1496CC",
+        "color15": "#7acae3"
+    }
+}

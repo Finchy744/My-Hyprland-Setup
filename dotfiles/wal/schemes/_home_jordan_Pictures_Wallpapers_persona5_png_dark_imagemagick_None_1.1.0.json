@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/persona5.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010101",
+        "foreground": "#dccac9",
+        "cursor": "#dccac9"
+    },
+    "colors": {
+        "color0": "#010101",
+        "color1": "#D11206",
+        "color2": "#FF1001",
+        "color3": "#A6605C",
+        "color4": "#838080",
+        "color5": "#959595",
+        "color6": "#AEADAC",
+        "color7": "#dccac9",
+        "color8": "#9a8d8c",
+        "color9": "#D11206",
+        "color10": "#FF1001",
+        "color11": "#A6605C",
+        "color12": "#838080",
+        "color13": "#959595",
+        "color14": "#AEADAC",
+        "color15": "#dccac9"
+    }
+}

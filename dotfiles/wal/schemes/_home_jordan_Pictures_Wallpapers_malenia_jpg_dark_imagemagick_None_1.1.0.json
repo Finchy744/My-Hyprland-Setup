@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/malenia.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1b100d",
+        "foreground": "#f0dbd2",
+        "cursor": "#f0dbd2"
+    },
+    "colors": {
+        "color0": "#1b100d",
+        "color1": "#9D6356",
+        "color2": "#D56950",
+        "color3": "#C48970",
+        "color4": "#89798F",
+        "color5": "#AF9EA3",
+        "color6": "#D9AC9E",
+        "color7": "#f0dbd2",
+        "color8": "#a89993",
+        "color9": "#9D6356",
+        "color10": "#D56950",
+        "color11": "#C48970",
+        "color12": "#89798F",
+        "color13": "#AF9EA3",
+        "color14": "#D9AC9E",
+        "color15": "#f0dbd2"
+    }
+}

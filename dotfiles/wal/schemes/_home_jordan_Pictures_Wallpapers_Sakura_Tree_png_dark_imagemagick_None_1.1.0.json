@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Sakura_Tree.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0f12",
+        "foreground": "#c0c3cb",
+        "cursor": "#c0c3cb"
+    },
+    "colors": {
+        "color0": "#0c0f12",
+        "color1": "#4B5868",
+        "color2": "#556773",
+        "color3": "#63666D",
+        "color4": "#84767F",
+        "color5": "#677688",
+        "color6": "#758997",
+        "color7": "#c0c3cb",
+        "color8": "#86888e",
+        "color9": "#4B5868",
+        "color10": "#556773",
+        "color11": "#63666D",
+        "color12": "#84767F",
+        "color13": "#677688",
+        "color14": "#758997",
+        "color15": "#c0c3cb"
+    }
+}

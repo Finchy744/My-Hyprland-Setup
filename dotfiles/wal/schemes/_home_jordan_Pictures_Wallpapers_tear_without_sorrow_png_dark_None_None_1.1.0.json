@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/tear_without_sorrow.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0C121D",
+        "foreground": "#a3bccc",
+        "cursor": "#a3bccc"
+    },
+    "colors": {
+        "color0": "#0C121D",
+        "color1": "#214976",
+        "color2": "#515D72",
+        "color3": "#254E93",
+        "color4": "#2A60A1",
+        "color5": "#3F73BA",
+        "color6": "#4F7395",
+        "color7": "#a3bccc",
+        "color8": "#72838e",
+        "color9": "#214976",
+        "color10": "#515D72",
+        "color11": "#254E93",
+        "color12": "#2A60A1",
+        "color13": "#3F73BA",
+        "color14": "#4F7395",
+        "color15": "#a3bccc"
+    }
+}

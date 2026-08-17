@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/elden_ring.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050504",
+        "foreground": "#a4a3a2",
+        "cursor": "#a4a3a2"
+    },
+    "colors": {
+        "color0": "#050504",
+        "color1": "#404b4c",
+        "color2": "#515445",
+        "color3": "#a6321a",
+        "color4": "#72573a",
+        "color5": "#868484",
+        "color6": "#8a8c74",
+        "color7": "#a4a3a2",
+        "color8": "#4a4746",
+        "color9": "#404b4c",
+        "color10": "#515445",
+        "color11": "#a6321a",
+        "color12": "#72573a",
+        "color13": "#868484",
+        "color14": "#8a8c74",
+        "color15": "#a4a3a2"
+    }
+}

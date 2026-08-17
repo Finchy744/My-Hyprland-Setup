@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Chun_Li.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#162834",
+        "foreground": "#cbddf0",
+        "cursor": "#cbddf0"
+    },
+    "colors": {
+        "color0": "#162834",
+        "color1": "#5FA4DB",
+        "color2": "#71B5EE",
+        "color3": "#8DB5D7",
+        "color4": "#8DBBF5",
+        "color5": "#95C4F0",
+        "color6": "#AACFE4",
+        "color7": "#cbddf0",
+        "color8": "#8e9aa8",
+        "color9": "#5FA4DB",
+        "color10": "#71B5EE",
+        "color11": "#8DB5D7",
+        "color12": "#8DBBF5",
+        "color13": "#95C4F0",
+        "color14": "#AACFE4",
+        "color15": "#cbddf0"
+    }
+}

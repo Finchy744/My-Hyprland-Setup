@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/hornet_groddo.png",
+    "alpha": "100",
+    "special": {
+        "background": "#010402",
+        "foreground": "#9ca19e",
+        "cursor": "#9ca19e"
+    },
+    "colors": {
+        "color0": "#010402",
+        "color1": "#214944",
+        "color2": "#593c35",
+        "color3": "#366d42",
+        "color4": "#7f8c7c",
+        "color5": "#67a35c",
+        "color6": "#84a484",
+        "color7": "#9ca19e",
+        "color8": "#3a443e",
+        "color9": "#214944",
+        "color10": "#593c35",
+        "color11": "#366d42",
+        "color12": "#7f8c7c",
+        "color13": "#67a35c",
+        "color14": "#84a484",
+        "color15": "#9ca19e"
+    }
+}

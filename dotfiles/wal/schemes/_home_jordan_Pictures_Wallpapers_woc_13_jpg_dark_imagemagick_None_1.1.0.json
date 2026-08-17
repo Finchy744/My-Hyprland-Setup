@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/woc_13.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0D0E12",
+        "foreground": "#86d5db",
+        "cursor": "#86d5db"
+    },
+    "colors": {
+        "color0": "#0D0E12",
+        "color1": "#52536D",
+        "color2": "#AA3744",
+        "color3": "#C2877D",
+        "color4": "#2B7189",
+        "color5": "#53718C",
+        "color6": "#6597A8",
+        "color7": "#86d5db",
+        "color8": "#5d9599",
+        "color9": "#52536D",
+        "color10": "#AA3744",
+        "color11": "#C2877D",
+        "color12": "#2B7189",
+        "color13": "#53718C",
+        "color14": "#6597A8",
+        "color15": "#86d5db"
+    }
+}

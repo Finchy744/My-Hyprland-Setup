@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/fantasy.png",
+    "alpha": "100",
+    "special": {
+        "background": "#13160c",
+        "foreground": "#dacd9e",
+        "cursor": "#dacd9e"
+    },
+    "colors": {
+        "color0": "#13160c",
+        "color1": "#635B4D",
+        "color2": "#966030",
+        "color3": "#D37432",
+        "color4": "#9A6B50",
+        "color5": "#E3922F",
+        "color6": "#92856C",
+        "color7": "#dacd9e",
+        "color8": "#988f6e",
+        "color9": "#635B4D",
+        "color10": "#966030",
+        "color11": "#D37432",
+        "color12": "#9A6B50",
+        "color13": "#E3922F",
+        "color14": "#92856C",
+        "color15": "#dacd9e"
+    }
+}

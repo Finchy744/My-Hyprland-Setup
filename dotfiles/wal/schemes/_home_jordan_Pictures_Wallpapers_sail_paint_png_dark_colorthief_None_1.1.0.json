@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/sail_paint.png",
+    "alpha": "100",
+    "special": {
+        "background": "#040404",
+        "foreground": "#a2a1a2",
+        "cursor": "#a2a1a2"
+    },
+    "colors": {
+        "color0": "#040404",
+        "color1": "#0a2869",
+        "color2": "#bc0f17",
+        "color3": "#68440c",
+        "color4": "#0a5cb3",
+        "color5": "#2a5d6d",
+        "color6": "#24b3ee",
+        "color7": "#a2a1a2",
+        "color8": "#464445",
+        "color9": "#0a2869",
+        "color10": "#bc0f17",
+        "color11": "#68440c",
+        "color12": "#0a5cb3",
+        "color13": "#2a5d6d",
+        "color14": "#24b3ee",
+        "color15": "#a2a1a2"
+    }
+}

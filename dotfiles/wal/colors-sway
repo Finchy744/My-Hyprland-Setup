@@ -1,0 +1,21 @@
+set $wallpaper /home/jordan/Pictures/Wallpapers/hornet_groddo.png
+
+set $background #010402
+set $foreground #9ca19e
+
+set $color0 #010402
+set $color1 #214944
+set $color2 #593c35
+set $color3 #366d42
+set $color4 #7f8c7c
+set $color5 #67a35c
+set $color6 #84a484
+set $color7 #9ca19e
+set $color8 #3a443e
+set $color9 #214944
+set $color10 #593c35
+set $color11 #366d42
+set $color12 #7f8c7c
+set $color13 #67a35c
+set $color14 #84a484
+set $color15 #9ca19e

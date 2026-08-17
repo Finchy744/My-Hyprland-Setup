@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/Mistborn.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0E1618",
+        "foreground": "#acbfc7",
+        "cursor": "#acbfc7"
+    },
+    "colors": {
+        "color0": "#0E1618",
+        "color1": "#31494E",
+        "color2": "#3C5B64",
+        "color3": "#475A5E",
+        "color4": "#4B6972",
+        "color5": "#9B5E43",
+        "color6": "#587987",
+        "color7": "#acbfc7",
+        "color8": "#78858b",
+        "color9": "#31494E",
+        "color10": "#3C5B64",
+        "color11": "#475A5E",
+        "color12": "#4B6972",
+        "color13": "#9B5E43",
+        "color14": "#587987",
+        "color15": "#acbfc7"
+    }
+}

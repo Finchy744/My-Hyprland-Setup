@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/jordan/Pictures/Wallpapers/catpuccin.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0c12",
+        "foreground": "#c7d5db",
+        "cursor": "#c7d5db"
+    },
+    "colors": {
+        "color0": "#0c0c12",
+        "color1": "#525569",
+        "color2": "#605F74",
+        "color3": "#5D6276",
+        "color4": "#63677B",
+        "color5": "#6E7388",
+        "color6": "#7C859B",
+        "color7": "#c7d5db",
+        "color8": "#8b9599",
+        "color9": "#525569",
+        "color10": "#605F74",
+        "color11": "#5D6276",
+        "color12": "#63677B",
+        "color13": "#6E7388",
+        "color14": "#7C859B",
+        "color15": "#c7d5db"
+    }
+}
