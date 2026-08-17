@@ -1,5 +1,0 @@
-#!/bin/bash
-# ~/.config/waypaper/hooks/wallpaper-change
-
-# Just run your working script
-/home/jordan/.config/scripts/wallpaper-change.sh
